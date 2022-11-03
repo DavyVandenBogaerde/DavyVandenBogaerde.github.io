@@ -1,6 +1,6 @@
 
 body{
-    font-family: Helvetica;
+    font-family: Helvetica , sans-serif;
 }
 header {
 
@@ -20,7 +20,7 @@ h1 {
 h2 {
   font-size: 40px;
 }
-header > 2 {
+header > h2 {
     color: #EDF2F4;
 }
 
