@@ -1,0 +1,32 @@
+table{
+    font-size: 3em;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: "Times New Roman", Times, serif;
+}
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.maandjaar { /*june 2020*/
+    background-color: #aaaac8;
+    text-align: center;
+    font-weight: bold;
+}
+.vrijedag{
+    background-color: #fa7878; /* vrije dag de 16de  kleur*/
+}
+tr:nth-child(2){
+
+    background-color: #232546;/* dag hoofding achtergrond kleur*/
+    color: #c8bef0;  /* dag hoofding kleur*/
+}
+.anderemaand{
+    background-color: darkgray;
+    color: gray;
+}
+
+
+
+
