@@ -1,0 +1,22 @@
+
+/*.box{
+    height: 200px;
+    box-sizing: border-box;
+    border: white 10px solid;
+}*/
+
+
+div[class*='col']{ /* * betekent begint met hierbij bgint met col*/
+    height: 200px;
+    border: white 10px solid;
+
+}
+#light{
+    background-color: gray;
+}
+
+#dark {
+    background-color: blue;
+}
+
+
