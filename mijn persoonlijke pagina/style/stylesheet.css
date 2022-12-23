@@ -1,47 +1,58 @@
-.metBeforeContent a:before{
-    content: url("../images/link.png");
-}
-
-.metBackgroundImage a {
-    background-repeat:no-repeat;
-    background-image:url("../images/link.png");
-    padding-left :16px;
-}
-
 body{
-    background-color: black;
-    margin : auto;
-    font-family: Arial, sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:auto auto auto ;
+    background: url("../images/japan.jpg");
+    background-size: cover;
 }
-h1{
-text-align: center;
-    color: white;
-}
-h3{
-    text-align: center;
-    font-size: 1.5em;
-    color: yellow;
-}
-ul{
-    color: white;
-list-style:none;
-}
-table{
-    color:white;
-    border: solid red 1px;
-    border-collapse: collapse;
 
-}
-th{
-    border: solid red 1px;
-    border-collapse: collapse;
-}
-.personal{
+h1{
     text-align: center;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    background-color: rgba(219,205,255,0.90);
+    border: solid white 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.links{
+    border: solid white 3px;
+    background-color: cyan;
+   padding: 4px;
+
 }
 a{
     text-decoration: none;
-    color: lightblue;
+    color: black;
     font-weight: bold;
+    font-size: 1.2em;
+}
 
+.personal{
+    margin-top: -20px;
+    text-align: center;
+    background-color: rgba(219,205,255,0.90);
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+
+    border: solid white 5px;
+    border-radius: 20%;
+    font-size: 1.2em;
+}
+
+.fotomezelf{
+    border-radius: 100%;
+    border: solid white 3px;
+    height: 200px;
+    width: 200px;
+
+}
+.naruto{
+    margin-top: -30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
 }
