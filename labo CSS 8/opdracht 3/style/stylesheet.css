@@ -1,0 +1,22 @@
+img {
+    position: absolute;
+}
+#arch {
+    top: 100px;
+    left: 100px;        /* foto links boven*/
+}
+#tech {
+    top: calc(100% - (100px + 120px));             /*foto rechts onder*/
+    left: calc(100% - (100px + 200px))
+}
+#animals {
+    top: 100px; /*ok*/            /*foto rechts boven*/
+    left: calc(100% - (100px + 200px));
+}
+#nature {
+    top: calc(100% - (100px + 120px));         /*foto links onder*/
+    left: 100px;
+}
+/*de 200px en 120 px zijn de afmetingen van de fotos die gebruikt worden*/
+/*Herschrijf de CSS-regels waardoor je exact hetzelfde resultaat verkrijgt, maar dit keer zonder
+gebruik te maken van de CSS-properties: right en bottom*/
