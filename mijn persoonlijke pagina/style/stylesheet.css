@@ -13,11 +13,13 @@ h1{
     border: solid white 3px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 10px;
 }
 .links{
     border: solid white 3px;
     background-color: cyan;
    padding: 4px;
+    border-radius: 10px;
 
 }
 a{
@@ -49,10 +51,56 @@ a{
     width: 200px;
 
 }
-.naruto{
+.naruto {
     margin-top: -30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10%;
+}
+
+body > h3 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    background-color: cyan;
+    border: solid white 3px;
+    border-radius: 10px;
+}
+
+.hobby{
+
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    display: grid;
+    grid-gap: 15px;
+
+}
+
+#crypto{
+    background-color: cyan;
+    grid-area: 1/1  /2/2;
+    border: solid white 3px;
+    border-radius: 10px;
+}
+
+#fitness{
+    background-color: cyan;
+    grid-area: 1/2  /2/3;
+    border: solid white 3px;
+    border-radius: 10px;
+}
+#netflix{
+    background-color: cyan;
+    grid-area: 1/3  /2/4;
+    border: solid white 3px;
+    border-radius: 10px;
+}
+.textmidden{
+    text-align: center;
+}
+.netfliximg{
+   float: right;
+
 }
